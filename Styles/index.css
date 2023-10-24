@@ -1,0 +1,93 @@
+.main {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.main h1 {
+  display: inline-block;
+  position: relative;  
+
+  font-size: 4rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.main h1:hover , #main2 h1:hover{
+  color: rgba(0, 0, 0, 0.8);
+  transition: all .15s;
+  text-shadow: 0 0 80px rgba(0, 0, 0, 0.5);
+}
+
+.main h1:hover {
+  cursor: pointer;
+}
+
+#main2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;  
+
+}
+
+#main2 h1 {
+  display: inline-block;
+  position: relative;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: default;
+}
+
+.card {
+  height: 45vh;
+  width: 17vw;
+  background-color: white;
+  border-radius: 50px;
+  margin: 10px;
+  display: flex;  
+
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  transition: all .15s;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.card:hover {
+ transform: translateY(-15px);
+ box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+  height: 140px;
+  border-radius: 50px;  
+
+}
+
+.card div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card div pre {
+  color: black;
+}
+
+.card div p {
+  color: rgb(100, 100, 100);
+  font-size: 1.2rem;
+}
+
+.cars {  
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
