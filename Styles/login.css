@@ -1,0 +1,33 @@
+#container {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.loginForm{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+form a {
+    color: black;
+    font-size: .8em;
+    cursor: pointer;
+}
+
+form input::placeholder {
+    font-size: 1.2em;
+}
+
+form input {
+    text-align: start;
+    padding: 8px 20px 8px 10px;
+}

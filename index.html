@@ -4,36 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
-  <link rel="stylesheet" href="Styles/index.css">
   <link rel="stylesheet" href="Styles/style.css">
+  <link rel="stylesheet" href="Styles/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-
-
   <header>
-    <h1>Car Rental and Reservation System</h1>
-    <div class="header-div">
-      <div><a href="Pages/cars.html" class="header-buttons">Available Cars</a></div>
-      <div><a href="Pages/contact.html" class="header-buttons">Contact Us</a></div>
+    <h1><a href="index.html">Car Rental and Reservation System</a></h1>
+    <div class="headerBtns">
+      <a href="Pages/login.html" class="button1">Login</a>
+      <a href="Pages/signup.html" class="button1">Signup</a>
     </div>
-
   </header>
 
-
-  <div class="main">
-    <a href="#main2"><h1 class="underline rbanim">Hey! Your Dream car Awaits</h1></a>
+  <div id="container">
+    <h1>Hey! Your Dream car Awaits</h1>
   </div>
 
-  <div id="main2">
-    <h1 class="underline">Ride your Dream Car without buying it!</h1>
+  <div id="container2">
+    <h1>Ride your Dream Car without buying it!</h1>
     <div class="cars">
-      <div class="card"><a href="Pages/cars.html"><img src="Assets/Images/Cars/Audi A4.jpg"><div><pre>Brand    </pre><p>Audi</p></div><div><pre>Model    </pre><p>A4</p></div><div><pre>Price    </pre><p>₹110k / Hr</p></div></a></div>
-      <div class="card"><a href="Pages/cars.html"><img src="Assets/Images/Cars/BMW iX1.jpg"><div><pre>Brand    </pre><p>BMW</p></div><div><pre>Model    </pre><p>iX1</p></div><div><pre>Price    </pre><p>₹80k / Hr</p></div></a></div>
-      <div class="card"><a href="Pages/cars.html"><img src="Assets/Images/Cars/Hyundai Verna.jpg"><div><pre>Brand    </pre><p>Hyundai</p></div><div><pre>Model    </pre><p>Verna</p></div><div><pre>Price    </pre><p>₹45k / Hr</p></div></a></div>
-      <div class="card"><a href="Pages/cars.html"><img src="Assets/Images/Cars/Mahindra Thar.jpg"><div><pre>Brand    </pre><p>Mahendra</p></div><div><pre>Model    </pre><p>Thar</p></div><div><pre>Price    </pre><p>₹90k / Hr</p></div></a></div>
+      <div class="card"><a href="Pages/cars.html"><img src="Assets/Images/Cars/Audi A4.jpg"><div><p>Audi A4</p></div><div><p>Price: ₹110k / Hr</p></div></a></div>
+      <div class="card"><a href="Pages/cars.html"><img src="Assets/Images/Cars/BMW iX1.jpg"><div><p>BMW iX1</p></div><div><p>Price: ₹80k / Hr</p></div></a></div>
+      <div class="card"><a href="Pages/cars.html"><img src="Assets/Images/Cars/Hyundai Verna.jpg"><div><p>Hyundai Verna</p></div><div><p>Price: ₹45k / Hr</p></div></a></div>
+      <div class="card"><a href="Pages/cars.html"><img src="Assets/Images/Cars/Mahindra Thar.jpg"><div><p>Mahendra Thar</p></div><div><p>Price: ₹90k / Hr</p></div></a></div>
     </div>
   </div>
 
+  <a href="#top" class="scrolltop"><i class="fa-solid fa-chevron-up"></i></a>
 
+  <footer>
+    <a href="Pages/about.html" class="button1">ABOUT</a>
+    <a target="_blank" href="https://github.com/pa1-m/Car-Rental-and-Reservation-System"><i class="fa-brands fa-github"></i></a>
+  </footer>
+  
+  <script src="Scripts/index.js"></script>
 </body>
 </html>
