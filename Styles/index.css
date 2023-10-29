@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
 } 
 
 #container h1 {
@@ -64,4 +65,45 @@
 .card:hover {
   outline: 4px solid rgba(0, 0, 0, 0.8);
   transform: translateY(-5px);
+}
+
+.circle {
+  padding: 100px;
+  background-color: rgba(0, 0, 0, 0.08) ;
+  border-bottom-left-radius: 500px;
+  position: absolute;
+  top: 10vh;
+  right: -100px;
+  z-index: -1;
+}
+
+.circle2 {
+  background-color: rgba(0, 0, 0, 0.08) ;
+  padding: 200px;
+  border-top-right-radius: 500px;
+  top:308px;
+  left: -50px;
+  position: absolute;
+  z-index: -1;
+}
+
+.circle3 {
+  padding: 100px;
+  background-color: rgba(0, 0, 0, 0.08) ;
+  border-radius: 500px;
+  position: absolute;
+  top: 40vh;
+  right: 25vw;
+  z-index: -1;
+}
+
+.circle4 {
+  padding: 100px;
+  background-color: rgba(0, 0, 0, 0.08) ;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  position: absolute;
+  top: -10px;
+  left: 300px;
+  z-index: -1;
 }

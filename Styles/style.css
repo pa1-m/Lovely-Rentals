@@ -29,6 +29,8 @@ header {
   align-items: center;
   justify-content: space-evenly;
   border-bottom: 1px solid var(--b);
+  z-index: 100;
+  background-color: white;
 }
 
 .headerBtns {
@@ -47,6 +49,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid var(--b);
+  background-color: white;
 }
 
 footer i{
