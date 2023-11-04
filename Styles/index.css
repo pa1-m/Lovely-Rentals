@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.8);
-} 
+}
 
 #container h1 {
   font-size: 4rem;
@@ -38,7 +38,7 @@
   height: 325px;
   width: 250px;
   border-radius: 15px;
-  display: flex;  
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
@@ -68,7 +68,7 @@
 }
 
 .circle {
-  padding: 100px;
+  padding: 90px;
   background-color: rgba(0, 0, 0, 0.08) ;
   border-bottom-left-radius: 500px;
   position: absolute;
