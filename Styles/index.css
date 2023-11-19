@@ -1,5 +1,5 @@
 body {
-  background-image: url("../Assets/Images/circle-scatter.svg");
+  background-image: url("../Assets/Images/circle-scatter-haikei.svg");
   background-repeat: repeat-y;
   background-size: contain;
 }
@@ -149,7 +149,6 @@ body {
 .card-btn:hover {
   background-color: white;
   color: #001220;
-  transform: translateY(-2px);
 }
 
 #container3{
