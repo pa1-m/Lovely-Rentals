@@ -18,7 +18,7 @@
   </nav>
 
     <div id="container">
-          <form action="home.html" class="loginform">
+          <form action="home.html" class="loginform" onsubmit="return validate()">
               <h2>Login</h2>
               <div>
                 <label for="email"><i class="fa-solid fa-envelope"></i></label>
@@ -26,9 +26,9 @@
               </div>
               <div>
                 <label for="password"><i class="fa-solid fa-lock"></i></label>
-                <input name="password" type="password" placeholder="PASSWORD" required><br>
+                <input name="password" id="password" type="password" placeholder="PASSWORD" required><br>
               </div>
-              <button class="rounded-btn" type="submit" onclick="login()">LOGIN</button>
+              <button class="rounded-btn" type="submit">LOGIN</button>
           </form>
     </div>
     <script src="../Scripts/index.js"></script>

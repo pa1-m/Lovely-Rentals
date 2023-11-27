@@ -1,5 +1,7 @@
 body {
   background-color: #001220;
+  background-image: url("../Assets/Images/Background.png");
+  background-size: cover;
 }
 
 .NavBtns-profile-content {
@@ -12,12 +14,13 @@ a:hover {
 }
 
 #container {
-  height: 200vh;
+  height: 120vh;
   width: 100vw;
   display: flex;  
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  backdrop-filter: blur;
 }
 
 .cars {

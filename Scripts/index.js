@@ -1,13 +1,22 @@
-function signup(){
-  alert("Registered Successfully!")
-}
+function validate() {
+  var password = document.getElementById('password').value;
 
-function login(){
-  alert("Login Successful!")
+  if (password.length < 6) {
+      alert('Password should be at least 6 characters long');
+      return false;
+    }
+    else if (password.length > 20) {
+      alert("Password should be at less than 10 Characters")
+      return false;
+  }
+  else {
+    alert ("Successfull!")
+    return true;
+  }
 }
 
 function logout(){
-  confirm("Logout Successful!")
+  alert("Logout Successful!")
 }
 
 function rent(){
