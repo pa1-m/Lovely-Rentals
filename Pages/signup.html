@@ -9,29 +9,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1><a href="../index.html">Car Rental and Reservation System</a></h1>
-        <div class="headerBtns">
-          <a href="login.html" class="button1">Login</a>
-        </div>
-  </header>
+  <nav>
+    <h1><a href="index.html">Lovely Rentals</a></h1>
+    <div>
+      <a href="../index.html"  class="rounded-btn">Home</a>
+      <a href="login.html"  class="rounded-btn">Login</a>
+    </div>
+  </nav>
 
     <div id="container">
-      <div class="loginForm">
-          <h2>Signup</h2>
-          <form>
-              <input type="text" placeholder="NAME"><br><br>
-              <input type="text" placeholder="MOBILE NUMBER"><br><br>
-              <input type="email" placeholder="EMAIL"><br><br>
-              <input type="password" placeholder="PASSWORD"><br>
-          </form>
-          <a href="login.html" class="button1">SIGNUP</a>
-      </div>
+          <form class="loginform">
+            <h2>Signup</h2>
+            <div>
+              <label for="name"><i class="fa-solid fa-user"></i></label>
+              <input name="name" type="text" placeholder="NAME" required><br>
+            </div>
+            <div>
+              <label for="email"><i class="fa-solid fa-envelope"></i></label>
+              <input name="email" type="email" placeholder="EMAIL" required><br>
+            </div>
+            <div>
+              <label for="password"><i class="fa-solid fa-lock"></i></label>
+              <input name="password" type="password" placeholder="PASSWORD" required><br>
+            </div>
+            <button class="rounded-btn" type="submit">SIGNUP</button>
+        </form>
     </div>
-
-  <footer>
-    <a href="Pages/about.html" class="button1">ABOUT</a>
-    <a href=""><i class="fa-brands fa-github"></i></a>
-  </footer>
 </body>
 </html>

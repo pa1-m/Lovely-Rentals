@@ -3,34 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Login | Lovely Rentals</title>
     <link rel="stylesheet" href="../Styles/style.css">
     <link rel="stylesheet" href="../Styles/login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">  
 </head>
 <body>
-  <header>
-        <h1><a href="../index.html">Car Rental and Reservation System</a></h1>
-        <div class="headerBtns">
-          <a href="signup.html" class="button1">Signup</a>
-        </div>
-  </header>
+  <nav>
+    <h1><a href="index.html">Lovely Rentals</a></h1>
+    <div>
+      <a href="../index.html"  class="rounded-btn">Home</a>
+      <a href="signup.html"  class="rounded-btn">Signup</a>
+    </div>
+  </nav>
 
     <div id="container">
-      <div class="loginForm">
-          <h2>Login</h2>
-          <form>
-              <input type="email" placeholder="EMAIL"><br><br>
-              <input type="password" placeholder="PASSWORD"><br>
-              <a href="#">Forgot Password?</a><br>
+          <form class="loginform">
+              <h2>Login</h2>
+              <div>
+                <label for="email"><i class="fa-solid fa-envelope"></i></label>
+                <input name="email" type="email" placeholder="EMAIL" required><br>
+              </div>
+              <div>
+                <label for="password"><i class="fa-solid fa-lock"></i></label>
+                <input name="password" type="password" placeholder="PASSWORD" required><br>
+              </div>
+              <button class="rounded-btn" type="submit">LOGIN</button>
           </form>
-          <a href="home.html" class="button1">LOGIN</a>
-      </div>
     </div>
-
-  <footer>
-    <a href="Pages/about.html" class="button1">ABOUT</a>
-    <a href=""><i class="fa-brands fa-github"></i></a>
-  </footer>
 </body>
 </html>
