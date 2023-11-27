@@ -5,53 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact</title>
   <link rel="stylesheet" href="../Styles/style.css">
+  <link rel="stylesheet" href="../Styles/login.css">
   <link rel="stylesheet" href="../Styles/contact.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-
-
-
-  <header>
-    <h1>Car Rental and Reservation System</h1>
-    <div class="header-div">
-      <div><a href="../index.html" class="header-buttons">Home</a></div>
-      <div><a href="cars.html" class="header-buttons">Available Cars</a></div>
+  <nav>
+    <h1><a href="index.html">Lovely Rentals</a></h1>
+    <div class="NavBtns-profile">
+        <i class="fa-regular fa-user profile-logo"></i>
+        <div class="NavBtns-profile-content">
+            <a href="home.html"  class="rounded-btn">Home</a>
+            <a href="../index.html" class="rounded-btn">Logout</a>
+        </div>
     </div>
-  </header>
+  </nav>
 
 
 
-<div class="main">
-
+<div id="container1">
   <form>
-    <h2 class="underline">Contact Form</h2>
-    <div>
-      <input type="text" id="name" required placeholder="Enter your Name">
-      <input type="email" id="email" required placeholder="Enter your Email Address">
-      <textarea id="message" rows = "5" required placeholder="Enter your Message" maxlength="80"></textarea>
-      <input type="submit" value="Submit" class="button1">
-    </div> 
+    <h2>Contact Form</h2>
+      <div>
+        <input name="name" type="name" placeholder="NAME" required><br>
+      </div>
+      <div>
+        <input name="email" type="email" placeholder="EMAIL" required><br>
+      </div>
+      <div>
+        <textarea id="message" rows = "5" required placeholder="Enter your Message" maxlength="80"></textarea>
+      </div>
+      <input type="submit" class="rounded-btn">
   </form>
-
-
 
   <div class="divider"></div>
 
   <div class="socials">
-    <h1 class="underline">Socials</h1>
+    <h2>Socials</h2>
     <div class="socials-div">
-      <a href="mailto:xyz@mail.com"><i class="fa-regular fa-envelope"></i></a>
-      <a href=""><i class="fa-brands fa-instagram"></i></a>
-      <a href=""><i class="fa-brands fa-telegram"></i></a>
+      <a href="mailto:LovelyRentals@mail.com"><i class="fa-regular fa-envelope"></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.telegram.com/" target="_blank"><i class="fa-brands fa-telegram"></i></a>
     </div>
   </div>
 
 </div>
-
-
-
-
-
 </body>
 </html>

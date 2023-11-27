@@ -18,7 +18,7 @@
   </nav>
 
     <div id="container">
-          <form class="loginform">
+          <form action="home.html" class="loginform">
               <h2>Login</h2>
               <div>
                 <label for="email"><i class="fa-solid fa-envelope"></i></label>
@@ -28,8 +28,9 @@
                 <label for="password"><i class="fa-solid fa-lock"></i></label>
                 <input name="password" type="password" placeholder="PASSWORD" required><br>
               </div>
-              <button class="rounded-btn" type="submit">LOGIN</button>
+              <button class="rounded-btn" type="submit" onclick="login()">LOGIN</button>
           </form>
     </div>
+    <script src="../Scripts/index.js"></script>
 </body>
 </html>
