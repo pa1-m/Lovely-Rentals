@@ -6,7 +6,7 @@ function validate() {
       return false;
     }
     else if (password.length > 20) {
-      alert("Password should be at less than 10 Characters")
+      alert("Password should be at less than 20 Characters")
       return false;
   }
   else {

@@ -112,7 +112,7 @@ body {
 }
 
 .card img{
-  height: 50%;
+  height: 100px;
   margin: 20px 0;
 }
 
@@ -133,7 +133,7 @@ body {
 }
 
 .card-name {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .card-year {
