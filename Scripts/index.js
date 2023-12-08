@@ -10,7 +10,7 @@ function validate() {
       return false;
   }
   else {
-    alert ("Successfull!")
+    alert ("Successful!")
     return true;
   }
 }
